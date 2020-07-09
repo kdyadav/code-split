@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "serve": "vue-cli-service serves",
+    "build:admin": "vue-cli-service build --dest dist/admin src/admin/index.js",
+    "build:public": "vue-cli-service build --dest dist/public src/public/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
